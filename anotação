@@ -1,0 +1,20 @@
+Exercício: Sistema de Agenda de Eventos
+
+Você foi contratado para desenvolver um sistema de agenda de eventos em Python para uma empresa. 
+Sua tarefa é implementar as classes Evento e AgendaEventos conforme o código fornecido.
+
+Implemente a classe Evento, que representa um evento específico. 
+Cada evento deve possuir um título, data, hora e local. 
+Certifique-se de que a classe possua um método _str_ para exibir as informações do evento de forma legível.
+
+Implemente a classe AgendaEventos, que será responsável por gerenciar todos os eventos. 
+Essa classe deve permitir adicionar, editar e remover eventos da agenda. 
+Além disso, deve ser possível listar todos os eventos cadastrados.
+
+Crie uma instância da classe AgendaEventos e adicione alguns eventos de exemplo utilizando a classe Evento.
+
+Liste todos os eventos cadastrados na agenda.
+
+Edite um dos eventos existentes na agenda e liste novamente todos os eventos para verificar se a edição foi realizada com sucesso.
+
+Remova um dos eventos da agenda e liste novamente todos os eventos para verificar se a remoção foi realizada corretamente.
