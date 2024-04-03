@@ -1,4 +1,13 @@
 from evento import Evento
+from AgendaEventos import Agenda
+titulo = ''
+data = ''
+hora = ''
+local = ''
+cod = 0
+
+a = Agenda(titulo, data, hora, local, cod)
+e = Evento(titulo, data, hora, local, cod)
 
 opt = ''
 while opt != 5:
@@ -11,9 +20,11 @@ while opt != 5:
     opt = int(input("-> "))
 
     if opt == 1:
-        pass
+        Agenda.criar(a)
+
     if opt == 2:
-        pass
+       pass 
+
     if opt == 3:
         pass
     if opt == 4:
